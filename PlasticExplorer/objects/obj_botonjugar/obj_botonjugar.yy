@@ -9,8 +9,8 @@
   "name":"obj_botonjugar",
   "overriddenProperties":[],
   "parent":{
-    "name":"Salas",
-    "path":"folders/Salas.yy",
+    "name":"Objetos",
+    "path":"folders/Objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprite_botonjugar",
-    "path":"sprites/sprite_botonjugar/sprite_botonjugar.yy",
+    "name":"sprite_boton_jugar",
+    "path":"sprites/sprite_boton_jugar/sprite_boton_jugar.yy",
   },
   "spriteMaskId":null,
   "visible":true,

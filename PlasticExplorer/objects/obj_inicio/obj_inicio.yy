@@ -6,8 +6,8 @@
   "name":"obj_inicio",
   "overriddenProperties":[],
   "parent":{
-    "name":"Salas",
-    "path":"folders/Salas.yy",
+    "name":"Objetos",
+    "path":"folders/Objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,

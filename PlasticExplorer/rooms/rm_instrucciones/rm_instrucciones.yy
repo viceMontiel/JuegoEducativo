@@ -6,16 +6,14 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_298A1E3","path":"rooms/rm_instrucciones/rm_instrucciones.yy",},
-    {"name":"inst_7376F27","path":"rooms/rm_instrucciones/rm_instrucciones.yy",},
-    {"name":"inst_3AF73783","path":"rooms/rm_instrucciones/rm_instrucciones.yy",},
+    {"name":"inst_74926CBE","path":"rooms/rm_instrucciones/rm_instrucciones.yy",},
+    {"name":"inst_24B4881B","path":"rooms/rm_instrucciones/rm_instrucciones.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v2","%Name":"inst_298A1E3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_298A1E3","objectId":{"name":"obj_instrucciones","path":"objects/obj_instrucciones/obj_instrucciones.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":128.0,},
-        {"$GMRInstance":"v2","%Name":"inst_7376F27","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7376F27","objectId":{"name":"obj_spriteins1","path":"objects/obj_spriteins1/obj_spriteins1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.11999998,"scaleY":0.10400005,"x":-32.0,"y":544.0,},
-        {"$GMRInstance":"v2","%Name":"inst_3AF73783","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3AF73783","objectId":{"name":"ojb_continuar","path":"objects/ojb_continuar/ojb_continuar.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.8060606,"scaleY":1.0,"x":480.0,"y":640.0,},
+        {"$GMRInstance":"v2","%Name":"inst_74926CBE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_74926CBE","objectId":{"name":"obj_rm_instrucciones","path":"objects/obj_rm_instrucciones/obj_rm_instrucciones.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.1316926,"scaleY":1.0909842,"x":64.0,"y":64.0,},
+        {"$GMRInstance":"v2","%Name":"inst_24B4881B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_24B4881B","objectId":{"name":"obj_volver","path":"objects/obj_volver/obj_volver.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.8060606,"scaleY":1.0,"x":512.0,"y":640.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"fondo","path":"sprites/fondo/fondo.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

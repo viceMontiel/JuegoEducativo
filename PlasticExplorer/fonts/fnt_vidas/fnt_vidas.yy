@@ -112,7 +112,7 @@
   "hinting":0,
   "includeTTF":false,
   "interpreter":0,
-  "italic":true,
+  "italic":false,
   "kerningPairs":[
     {"amount":-1,"first":65,"second":63,},
     {"amount":-2,"first":65,"second":84,},
@@ -464,10 +464,7 @@
   "sdfSpread":8,
   "size":20.0,
   "styleName":"Bold",
-  "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
-  },
+  "textureGroupId":null,
   "TTFName":"",
   "usesSDF":false,
 }

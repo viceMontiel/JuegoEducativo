@@ -9,8 +9,8 @@
   "name":"obj_botonsalir",
   "overriddenProperties":[],
   "parent":{
-    "name":"Salas",
-    "path":"folders/Salas.yy",
+    "name":"Objetos",
+    "path":"folders/Objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprite_botonsalir",
-    "path":"sprites/sprite_botonsalir/sprite_botonsalir.yy",
+    "name":"sprite_boton_salir",
+    "path":"sprites/sprite_boton_salir/sprite_boton_salir.yy",
   },
   "spriteMaskId":null,
   "visible":true,

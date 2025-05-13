@@ -10,8 +10,8 @@
   "name":"obj_nivel1a2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Salas",
-    "path":"folders/Salas.yy",
+    "name":"Objetos",
+    "path":"folders/Objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite17",
-    "path":"sprites/Sprite17/Sprite17.yy",
+    "name":"sprite_lvlpasado",
+    "path":"sprites/sprite_lvlpasado/sprite_lvlpasado.yy",
   },
   "spriteMaskId":null,
   "visible":true,

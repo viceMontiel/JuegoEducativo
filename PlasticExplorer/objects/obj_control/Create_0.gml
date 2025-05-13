@@ -1,3 +1,4 @@
+
 // Solo se reinician los elementos cuando empieza un nivel específico
 if (room == Nivel1) {
     global.elementos_restantes = 10; // o el número que uses en Nivel 1
@@ -7,6 +8,10 @@ if (room == Nivel1) {
 if (room == Nivel2) {
     global.elementos_restantes = 10; // o el número de elementos en Nivel 2
     global.nivel = 2;
+}
+if (room == Nivel3) {
+    global.elementos_restantes = 10; // o el número de elementos en Nivel 2
+    global.nivel = 3;
 }
 
 // Solo se inicializan si aún no existen (evita reiniciar vidas o tiempo)
