@@ -16,6 +16,9 @@ switch (room) {
         tiempo_cambio = room_speed * 10; // 4 segundos para mostrar instrucciones
         siguiente_room = Nivel3;
         break;
+	case Nivel3:
+		tiempo_cambio = room_speed * 10; // 4 segundos para mostrar instrucciones
+        siguiente_room = rm_final;
     // Puedes seguir extendiendo para Nivel2a3, etc.
     default:
         tiempo_cambio = room_speed * 2;

@@ -1,6 +1,5 @@
-//x = random_range(sprite_width / 2, room_width - sprite_width / 2);
-//y = -sprite_height; // para que aparezca justo fuera de la parte superior
-
+// Velocidad de rotación aleatoria entre -5 y 5 grados por frame
+rotacion_angular = random_range(-5, 5);
 
 fall_speed = random_range(2, 4); // Aumenta la velocidad
 // Mucho más lento
@@ -8,7 +7,9 @@ fall_speed = random_range(2, 4); // Aumenta la velocidad
 // Definir una lista de sprites posibles
 var sprites_malos = [
     sprite_malo1_nvl2,
-	sprite_malo2_nvl2
+	sprite_malo2_nvl2,
+	sprite_malo3_nvl2,
+	sprite_malo4_nvl2
 ];
 
 // Elegir uno aleatoriamente
