@@ -1,4 +1,3 @@
-
 // Solo se reinician los elementos cuando empieza un nivel específico
 if (room == Nivel1) {
     global.elementos_restantes = 10; // o el número que uses en Nivel 1

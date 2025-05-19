@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sprite_final",
+    "path":"sprites/sprite_final/sprite_final.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

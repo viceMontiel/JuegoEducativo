@@ -105,6 +105,7 @@
     {"id":{"name":"sprite_exp_nvl1","path":"sprites/sprite_exp_nvl1/sprite_exp_nvl1.yy",},},
     {"id":{"name":"sprite_exp_nvl2","path":"sprites/sprite_exp_nvl2/sprite_exp_nvl2.yy",},},
     {"id":{"name":"sprite_exp_nvl3","path":"sprites/sprite_exp_nvl3/sprite_exp_nvl3.yy",},},
+    {"id":{"name":"sprite_final","path":"sprites/sprite_final/sprite_final.yy",},},
     {"id":{"name":"sprite_fondo","path":"sprites/sprite_fondo/sprite_fondo.yy",},},
     {"id":{"name":"sprite_gameover","path":"sprites/sprite_gameover/sprite_gameover.yy",},},
     {"id":{"name":"sprite_inicio","path":"sprites/sprite_inicio/sprite_inicio.yy",},},

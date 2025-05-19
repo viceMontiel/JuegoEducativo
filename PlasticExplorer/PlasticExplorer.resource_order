@@ -81,6 +81,7 @@
     {"name":"sprite_exp_nvl1","order":20,"path":"sprites/sprite_exp_nvl1/sprite_exp_nvl1.yy",},
     {"name":"sprite_exp_nvl2","order":27,"path":"sprites/sprite_exp_nvl2/sprite_exp_nvl2.yy",},
     {"name":"sprite_exp_nvl3","order":28,"path":"sprites/sprite_exp_nvl3/sprite_exp_nvl3.yy",},
+    {"name":"sprite_final","order":43,"path":"sprites/sprite_final/sprite_final.yy",},
     {"name":"sprite_gameover","order":15,"path":"sprites/sprite_gameover/sprite_gameover.yy",},
     {"name":"sprite_inicio","order":9,"path":"sprites/sprite_inicio/sprite_inicio.yy",},
     {"name":"sprite_inicio1","order":10,"path":"sprites/sprite_inicio1/sprite_inicio1.yy",},
@@ -101,6 +102,6 @@
     {"name":"sprite_malo4_nvl3","order":40,"path":"sprites/sprite_malo4_nvl3/sprite_malo4_nvl3.yy",},
     {"name":"sprite_pj","order":14,"path":"sprites/sprite_pj/sprite_pj.yy",},
     {"name":"sprite_salirdeljuego","order":41,"path":"sprites/sprite_salirdeljuego/sprite_salirdeljuego.yy",},
-    {"name":"sprite_volveralmenu","order":15,"path":"sprites/sprite_volveralmenu/sprite_volveralmenu.yy",},
+    {"name":"sprite_volveralmenu","order":42,"path":"sprites/sprite_volveralmenu/sprite_volveralmenu.yy",},
   ],
 }
