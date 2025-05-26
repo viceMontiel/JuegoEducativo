@@ -5,11 +5,11 @@
   "applyKerning":0,
   "ascender":53,
   "ascenderOffset":0,
-  "bold":true,
+  "bold":false,
   "canGenerateBitmap":true,
   "charset":0,
   "first":0,
-  "fontName":"Verdana",
+  "fontName":"Bahnschrift SemiBold",
   "glyphOperations":0,
   "glyphs":{
     "32":{"character":32,"h":65,"offset":0,"shift":19,"w":19,"x":2,"y":2,},
@@ -551,10 +551,7 @@
   "sdfSpread":8,
   "size":40.0,
   "styleName":"Regular",
-  "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
-  },
+  "textureGroupId":null,
   "TTFName":"",
   "usesSDF":false,
 }
