@@ -3,7 +3,9 @@ if (global.vidas <= 0) {
     global.nivel = 1;
     room_goto(rm_gameover);
 }
-
+if (!variable_global_exists("tiempo_juego")) {
+    global.tiempo_juego = 0;
+}
 // Si no estamos pasando de nivel y los elementos restantes llegaron a 0, iniciamos la transición
 if (!pasando_nivel && global.elementos_restantes <= 0) {
     mensaje_nivel_completado = true;
@@ -34,3 +36,5 @@ if (pasando_nivel) {
 
 // Sumar el tiempo total jugado (si el juego sigue)
 global.tiempo += 1;
+// Acumulamos el tiempo total de juego
+global.tiempo_juego += delta_time / 1000000; // delta_time está en microsegundos
