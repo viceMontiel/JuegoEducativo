@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprite_boton_guardar",
-    "path":"sprites/sprite_boton_guardar/sprite_boton_guardar.yy",
+    "name":"Sprite47",
+    "path":"sprites/Sprite47/Sprite47.yy",
   },
   "spriteMaskId":null,
   "visible":true,

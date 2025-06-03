@@ -1,38 +1,66 @@
 if (escribiendo) {
-    var letra = keyboard_lastchar;
 
-    // Si es distinta a la última letra ingresada y no es tecla de control
-    if (letra != tecla_anterior &&
-        letra != "" &&
-        !keyboard_check(vk_shift) &&
-        !keyboard_check(vk_control) &&
-        !keyboard_check(vk_alt)
-    ) {
-        // Aceptar solo letras, números, símbolos básicos
-        if ((letra == "." || letra == "@" || letra == "-" || letra == "_" ||
-            (ord(letra) >= 48 && ord(letra) <= 57) || // números
-            (ord(letra) >= 65 && ord(letra) <= 90) || // mayúsculas
-            (ord(letra) >= 97 && ord(letra) <= 122)) // minúsculas
-        ) {
-            correo_input = string_insert(letra, correo_input, cursor_pos + 1);
-            cursor_pos += 1;
+    var max_length = 50; // Máximo caracteres
+
+    // Primero detectar Alt + Q para '@'
+    if (keyboard_check_pressed(ord("Q")) && keyboard_check(vk_alt) && string_length(correo_input) < max_length) {
+        correo_input = string_insert("@", correo_input, cursor_pos + 1);
+        cursor_pos += 1;
+    }
+    else {
+        // Letras A-Z y a-z (solo si no es Alt + Q)
+        for (var i = ord("A"); i <= ord("Z"); i++) {
+            if (keyboard_check_pressed(i) && string_length(correo_input) < max_length) {
+                var letra = chr(i);
+                if (!keyboard_check(vk_shift)) {
+                    letra = string_lower(letra);
+                }
+                correo_input = string_insert(letra, correo_input, cursor_pos + 1);
+                cursor_pos += 1;
+                break; // Solo una letra por ciclo
+            }
         }
-
-        tecla_anterior = letra;
     }
 
-    // Reiniciar cuando no se presiona ninguna tecla
-    if (letra == "") {
-        tecla_anterior = "";
+    // Números 0-9
+    for (var i = ord("0"); i <= ord("9"); i++) {
+        if (keyboard_check_pressed(i) && string_length(correo_input) < max_length) {
+            correo_input = string_insert(chr(i), correo_input, cursor_pos + 1);
+            cursor_pos += 1;
+            break; // Solo un número por ciclo
+        }
     }
 
-    // Backspace
-    if (keyboard_check_pressed(vk_backspace) && cursor_pos > 0) {
-        correo_input = string_delete(correo_input, cursor_pos, 1);
-        cursor_pos -= 1;
+    // Punto '.'
+    if (keyboard_check_pressed(190) && string_length(correo_input) < max_length) {
+        correo_input = string_insert(".", correo_input, cursor_pos + 1);
+        cursor_pos += 1;
     }
 
-    // Flechas
+    // Guion '-' y guion bajo '_'
+    if (keyboard_check_pressed(189) && string_length(correo_input) < max_length) {
+        var char_to_insert = keyboard_check(vk_shift) ? "_" : "-";
+        correo_input = string_insert(char_to_insert, correo_input, cursor_pos + 1);
+        cursor_pos += 1;
+    }
+
+	// Backspace con borrado continuo
+	if (keyboard_check(vk_backspace)) {
+	    if (borrar_delay <= 0) {
+	        if (cursor_pos > 0) {
+	            correo_input = string_delete(correo_input, cursor_pos, 1);
+	            cursor_pos -= 1;
+	        }
+	        borrar_delay = borrar_intervalo;
+	    } else {
+	        borrar_delay -= 1;
+	    }
+	} else {
+	    borrar_delay = 0; // reiniciar si no se mantiene presionada
+	}
+
+
+    // Flechas izquierda y derecha
     if (keyboard_check_pressed(vk_left)) {
         cursor_pos = max(cursor_pos - 1, 0);
     }
@@ -40,11 +68,14 @@ if (escribiendo) {
         cursor_pos = min(cursor_pos + 1, string_length(correo_input));
     }
 
-    // Enter para guardar
+    // Enter para confirmar
     if (keyboard_check_pressed(vk_enter)) {
         global.idJugador = correo_input;
         escribiendo = false;
         show_debug_message("Correo guardado: " + global.idJugador);
-		global.input_confirmado = true;  // <-- Aquí marcas que se confirmó
+        global.input_confirmado = true;
     }
+
+    // Ajustar cursor a los límites de la cadena
+    cursor_pos = clamp(cursor_pos, 0, string_length(correo_input));
 }
