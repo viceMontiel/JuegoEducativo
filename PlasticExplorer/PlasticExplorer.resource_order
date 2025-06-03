@@ -17,6 +17,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"fnt_entrenvls","order":3,"path":"fonts/fnt_entrenvls/fnt_entrenvls.yy",},
+    {"name":"fnt_input","order":4,"path":"fonts/fnt_input/fnt_input.yy",},
     {"name":"fnt_instrucciones","order":2,"path":"fonts/fnt_instrucciones/fnt_instrucciones.yy",},
     {"name":"fnt_titulo","order":1,"path":"fonts/fnt_titulo/fnt_titulo.yy",},
     {"name":"obj_boton_cuenta","order":30,"path":"objects/obj_boton_cuenta/obj_boton_cuenta.yy",},

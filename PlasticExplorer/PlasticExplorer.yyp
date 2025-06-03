@@ -37,6 +37,7 @@
   "name":"PlasticExplorer",
   "resources":[
     {"id":{"name":"fnt_entrenvls","path":"fonts/fnt_entrenvls/fnt_entrenvls.yy",},},
+    {"id":{"name":"fnt_input","path":"fonts/fnt_input/fnt_input.yy",},},
     {"id":{"name":"fnt_instrucciones","path":"fonts/fnt_instrucciones/fnt_instrucciones.yy",},},
     {"id":{"name":"fnt_titulo","path":"fonts/fnt_titulo/fnt_titulo.yy",},},
     {"id":{"name":"fnt_vidas","path":"fonts/fnt_vidas/fnt_vidas.yy",},},
@@ -142,6 +143,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"pedir_cuenta_usuario","path":"rooms/pedir_cuenta_usuario/pedir_cuenta_usuario.yy",},},
     {"roomId":{"name":"rm_inicio","path":"rooms/rm_inicio/rm_inicio.yy",},},
     {"roomId":{"name":"rm_instrucciones","path":"rooms/rm_instrucciones/rm_instrucciones.yy",},},
     {"roomId":{"name":"rm_explicacionnvl1","path":"rooms/rm_explicacionnvl1/rm_explicacionnvl1.yy",},},
@@ -154,7 +156,6 @@
     {"roomId":{"name":"rm_explicacionnvl3","path":"rooms/rm_explicacionnvl3/rm_explicacionnvl3.yy",},},
     {"roomId":{"name":"Nivel3","path":"rooms/Nivel3/Nivel3.yy",},},
     {"roomId":{"name":"rm_final","path":"rooms/rm_final/rm_final.yy",},},
-    {"roomId":{"name":"pedir_cuenta_usuario","path":"rooms/pedir_cuenta_usuario/pedir_cuenta_usuario.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
