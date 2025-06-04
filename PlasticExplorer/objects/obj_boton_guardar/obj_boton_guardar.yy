@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite47",
-    "path":"sprites/Sprite47/Sprite47.yy",
+    "name":"sprite_continuar",
+    "path":"sprites/sprite_continuar/sprite_continuar.yy",
   },
   "spriteMaskId":null,
   "visible":true,
