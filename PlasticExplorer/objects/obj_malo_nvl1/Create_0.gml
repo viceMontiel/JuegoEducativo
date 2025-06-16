@@ -10,7 +10,7 @@ var sprites_malos = [
     sprite_malo1_nvl1,
 	sprite_malo2_nvl1,
 	sprite_malo3_nvl1,
-	sprite_malo4_nvl1
+	sprite_bueno1_nvl3
 ];
 
 // Elegir uno aleatoriamente
