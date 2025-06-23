@@ -49,9 +49,19 @@ function scr_log(tipoObjeto, correcto) {
                 string(vidas_restantes) + "," +
                 string(tiempo_juego) + "\n";
 
-    // Guardar en el archivo
-    var f = file_text_open_append(archivo);
-    file_text_write_string(f, linea);
-    file_text_close(f);
-	show_debug_message("Archivo de log actualizado: " + archivo);
+    // 🔄 Enviar al Google Sheets (formato JSON)
+    var log_json = json_stringify({
+        idJugador: idJugador,
+        objeto: tipoObjeto,
+        respuestaJugador: respuestaJugador,
+        esCorrecto: (correcto ? true : false),
+        nivel: nivel,
+        vidas_restantes: vidas_restantes,
+        tiempo_juego: tiempo_juego
+    });
+
+    // URL de tu Google Apps Script (reemplaza con la real)
+    var url = "https://script.google.com/macros/s/AKfycbxkuSdszeIq2lndY41qqDmYkMID3BjinQS5LdUywe9u2r76qyI644tq_JYJnPO3mLF1/exec";
+
+    http_post_string(url, log_json);
 }
